@@ -30,8 +30,7 @@ telemetry_tool = "dht.read"
 [[mcp.servers]]
 name = "devices"
 command = "python3"
-args = ["../device_mcp_server.py"]
-#args = ["../devices/mock_mcp_server.py"]#切换mock模拟版本
+args = ["../devices/mock_mcp_server.py"]
 # env = { }                    # 传给子进程的环境变量
 #   真机版示例：
 # args = ["../devices/device_mcp_server.py"]
